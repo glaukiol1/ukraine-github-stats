@@ -7,5 +7,8 @@ grabRepos(username, async (repos) => {
     const stars = cal.totalStars(repos)
     console.log("Stars: ", stars)
     const commits = await cal.totalCommits(username)
-    console.log("Commits: "+commits)
+    console.log("Commits: ", commits)
+    const prs = await cal.totalPrs(username)
+    console.log("PRs: ", prs)
+    const issues = undefined;
 })

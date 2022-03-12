@@ -1,4 +1,5 @@
 const grabCommits = require("./fetchers/grab-commits")
+const grabPrs = require("./fetchers/grab-prs")
 
 function totalStars(repos) {
     var stars = 0
@@ -15,4 +16,13 @@ function totalCommits(username) {
         })
     })
 }
-module.exports = {totalStars,totalCommits}
+
+function totalPrs(username) {
+    return new Promise((resolve, reject)=>{
+        grabPrs(username, dat => {
+            resolve(dat)
+        })
+    })
+}
+
+module.exports = {totalStars,totalCommits,totalPrs}
