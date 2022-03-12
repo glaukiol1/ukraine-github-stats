@@ -17,7 +17,6 @@ function grabRepos(user,cb) {
             repos = repos.concat(res)
             pages--
             if (0 == pages) {
-                console.log("done")
                 cb(repos)
             }
         }
