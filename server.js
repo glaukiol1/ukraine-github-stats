@@ -16,4 +16,4 @@ app.get('/api/:username', (req,res)=>{
         })
 })
 
-app.listen(3000)
+app.listen(80)
