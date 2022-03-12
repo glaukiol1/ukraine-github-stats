@@ -1,5 +1,5 @@
 const express = require('express');
-const parseReq = require('./main');
+const parseReq = require('../main');
 const app = express();
 
 app.get('/api/:username', (req,res)=>{
@@ -16,4 +16,4 @@ app.get('/api/:username', (req,res)=>{
         })
 })
 
-app.listen(80)
+module.exports = app
