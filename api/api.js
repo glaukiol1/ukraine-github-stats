@@ -16,4 +16,8 @@ app.get('/api/:username', (req,res)=>{
         })
 })
 
+app.get('*', (req,res) => {
+    res.send("Hello, this page was not found.")
+})
+
 module.exports = app
