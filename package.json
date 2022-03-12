@@ -1,0 +1,23 @@
+{
+  "name": "github-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaukiol1/github-stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glaukiol1/github-stats/issues"
+  },
+  "homepage": "https://github.com/glaukiol1/github-stats#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
