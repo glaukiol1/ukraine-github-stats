@@ -5,10 +5,10 @@ module.exports = (req, res) => {
     res.setHeader("Content-Type", "image/svg+xml")
     parseReq(username, title)
         .then(data => {
-            res.send(data).status(200)
+            return res.send(data)
         })
         .catch(error => {
             res.setHeader("Content-Type", "plain/text")
-            res.send("ERROR!").status(500)
+            return res.send("ERROR!")
         })
 }
