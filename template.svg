@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" viewBox="42.334 59.043 386.503 183.324">
   <defs>
-    <style bx:fonts="Comfortaa">@import url(https://fonts.googleapis.com/css2?family=Akaya+Telivigala%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+    <style bx:fonts="Comfortaa">@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500");</style>
   </defs>
   <rect x="42.313" y="59.1" width="385.685" height="94.536" style="stroke: rgb(0, 0, 0); fill: rgb(0, 0, 255);"/>
-  <rect x="42.113" y="154.037" width="385.905" height="87.819" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 0);"/>
+  <rect x="42.113" y="154.037" width="385.905" height="94.536" style="stroke: rgb(0, 0, 0); fill: rgb(255, 255, 0);"/>
   <text style="font-family: &quot;Comfortaa&quot;; font-size: 20px; font-weight: 700; white-space: pre;" transform="matrix(1, 0, 0, 1, -30.812361, -10.217636)"><tspan x="91.925" y="123.667">Total Stars:</tspan><tspan x="91.92500305175781" dy="1.5em">&#x200b;</tspan><tspan>Total Commits:</tspan><tspan x="91.92500305175781" dy="1.5em">&#x200b;</tspan><tspan>Total PRs:</tspan><tspan x="91.92500305175781" dy="1.5em">&#x200b;</tspan><tspan>Total Issues:<tspan x="91.92500305175781" dy="1.5em">&#x200b;</tspan>Repos:</tspan></text>
   <text style="font-family: &quot;Comfortaa&quot;; font-size: 20px; font-weight: 700; white-space: pre;" transform="matrix(1, 0, 0, 1, 61.322174, -12.002587)"><tspan x="213.543" y="122.525">{{stars}}</tspan><tspan x="213.54299926757812" dy="1.5em">&#x200b;</tspan><tspan>{{commits}}</tspan><tspan x="213.54299926757812" dy="1.5em">&#x200b;</tspan><tspan>{{prs}}</tspan><tspan x="213.54299926757812" dy="1.5em">&#x200b;</tspan><tspan>{{issues}}<tspan x="213.54299926757812" dy="1.5em">&#x200b;</tspan>{{repos}}</tspan></text>
   <text style="font-family: &quot;Comfortaa&quot;; font-size: 28px; font-weight: 700; letter-spacing: 0.5px; white-space: pre;" x="60" y="85">{{title}}</text>
