@@ -10,5 +10,6 @@ grabRepos(username, async (repos) => {
     console.log("Commits: ", commits)
     const prs = await cal.totalPrs(username)
     console.log("PRs: ", prs)
-    const issues = undefined;
+    const issues = await cal.totalIssues(username);
+    console.log("Issues: ", issues)
 })
