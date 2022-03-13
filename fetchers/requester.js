@@ -4,7 +4,7 @@ function request (url, cb, headers) {
     if (!headers) {
         headers = {"User-Agent": "Daddy"}
     }
-    // headers.authorization = `token ${process.argv[2]}`
+    headers.authorization = `token ${process.env["TOKEN"]}`
     https.request({
         hostname: 'api.github.com',
         path: url,
